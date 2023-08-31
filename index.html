@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meaty Eats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-items">
+            <img src="img/restaurant1.png" alt="Grill">
+            <h1>Meaty <span class="logo-part2">Eats</span></h1>
+        </div>
+        <div class="menu-book">
+            <a href="#menu">Menu</a>
+            <a href="#book">Book Table</a>
+        </div>
+        <div class="navbar-cart">
+            <img class = "cart-btn" src="img/big-cart.png" alt="">
+        </div>
+        <div class="cart-items">0</div>
+    </nav>
+    <section class="banner">
+        <img src="img/hamburger-food.jpg" alt="meat" class="image">
+        <div class="welcome">
+        <h1 class="welcome-message">Delicious</h1>
+        <a href="#menu" class="banner-btn">Order Now</a>
+        </div>
+    </section>
+    <section id="menu">
+        <div class="menu-title">
+            <h1>Popular Dishes</h1>
+        </div>
+        <div class="grid">
+          <!----menu items--> 
+        </div>
+    </section>  
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <img src="./img/cancel.png" alt="cart">
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                <!-----cart item------>
+                <div class="cart-item"></div>
+                <!------end of cart item----->
+            </div>
+            <div class="cart-footer">
+                <h3>Your total: $<span class="cart-total">0</span></h3>
+                <button class="clear-cart">Clear cart</button>
+            </div>
+        </div>
+    </div>
+    <section class="book-table">  
+        <form class="form" id="book">
+            <h1>Book a Table</h1>
+            <div class="form-control">
+            <input type="text" name="name" placeholder="First Name" class ="fname">
+            <small>Error message</small>
+            </div>
+            <div class="form-control"> 
+            <input type="text" name = "name" placeholder="Last Name" class="lname">
+            <small>Error message</small>
+            </div>
+            <div class="form-control">
+            <input type="date" placeholder="Date" class="date">
+            <small>Error message</small>
+            </div>
+            <div class="form-control">
+            <input type="time" placeholder="Time" class="time">
+            <small>Error message</small>
+            </div>
+            <div class="form-control">
+            <input type="number" placeholder="Number of guests" class="guests">
+            <small>Error message</small>
+            </div> 
+            <button type= "submit" class="submit-btn">Submit</button>     
+        </form>
+        <div class="submit-msg hidden">
+            <h5>Submitted Successfully</h5>
+            <button class="ok-btn">Ok</button>
+        </div>
+    </section>
+    
+    <footer>
+            <div class="contacts">
+                <p class="copyright">Copyright 2023 Meaty Eats</p>
+                <ul class="social"> 
+                    <li>
+                        <a href="#"><img src="img/facebook.png" alt="" class="linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/instagram.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/linkedin.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>                               
+        </div>
+    </footer>
+    <div class="form-overlay hidden"></div>
+    </body>
+ <script src="app.js"></script>   
+</body>
+</html>

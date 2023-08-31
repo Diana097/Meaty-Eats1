@@ -1,0 +1,124 @@
+{
+    "items": [
+    {
+        "sys": {"id": "1" },
+        "field": {
+            "title": "Rice",
+            "price": 1.99,
+            "image": {"fields": {"file": {
+                "url": "./img/food-2.jpg"} }
+            }        
+        }
+    },
+     {
+        "sys": {"id": "2" },
+        "field": {
+            "title": "Roast Ribs",
+            "price": 6.99,
+            "image": {"fields": {"file": {
+                "url": "./img/roast-meat1.jpg"} }
+            }        
+        }
+    },
+    {
+        "sys": {"id": "3" },
+        "field": {
+            "title": "Onion Rings",
+            "price": 7.99,
+            "image": {"fields": {"file": {
+                "url": "./img/onion-rings.jpg"} }
+            }        
+        }
+    },
+    {
+        "sys": {"id": "4" },
+        "field": {
+            "title": "Pasta",
+            "price": 8.99,
+            "image": {"fields": {"file": {
+                "url": "./img/pasta.jpg"} }
+            }        
+        }
+    },
+    {
+        "sys": {"id": "5" },
+        "field": {
+            "title": "Burger",
+            "price": 5.99,
+            "image": {"fields": {"file": {
+                "url": "./img/burger-1156564_640.jpg"} }
+            }        
+        }
+    },
+    {
+        "sys": {"id": "6" },
+        "field": {
+            "title": "Fish",
+            "price": 11.99,
+            "image": {"fields": {"file": {
+                "url": "./img/salmon.jpg"} }
+            }        
+        }
+    },
+    {
+        "sys": {"id": "7" },
+        "field": {
+            "title": "Roast Meat",
+            "price": 10.99,
+            "image": {"fields": {"file": {
+                "url": "./img/sauerbraten.jpg"} }
+            }        
+        }
+    },
+    {
+        "sys": {"id": "8" },
+        "field": {
+            "title": "Meat",
+            "price": 6.99,
+            "image": {"fields": {"file": {
+                "url": "./img/keto-1.jpg"} }
+            }        
+        }
+    },
+    {
+        "sys": {"id": "9" },
+        "field": {
+            "title": "Maccaroni",
+            "price": 11.99,
+            "image": {"fields": {"file": {
+                "url": "./img/fusilloni.jpg"} }
+            }        
+        }
+    },
+    {
+        "sys": {"id": "10" },
+        "field": {
+            "title": "Fish",
+            "price": 3.99,
+            "image": {"fields": {"file": {
+                "url": "./img/food1.jpg"} }
+            }        
+        }
+    },
+    {
+        "sys": {"id": "11" },
+        "field": {
+            "title": "Fish & Fries",
+            "price": 4.99,
+            "image": {"fields": {"file": {
+                "url": "./img/beef.jpg"} }
+            }        
+        }
+    },
+    {
+        "sys": {"id": "12" },
+        "field": {
+            "title": "Spring Rolls",
+            "price": 2.99,
+            "image": {"fields": {"file": {
+                "url": "./img/spring-rolls.jpg"} }
+            }        
+        }
+    }
+]
+}
